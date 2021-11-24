@@ -1,0 +1,36 @@
+.container
+    .page_content
+        .sidebar
+            ul
+                -for(var s=1;s<=10;s++)
+                    li
+                        a(href="#") Link #{s}
+
+        .content
+            ul.breadcrumb
+                li
+                    a(href="#") Главная
+                li
+                    a(href="#") Новости факультета международных связей
+
+            <h1>Новости факультета международных связей</h1>
+            .news_list
+                -for (var n = 1; n <= 14; n++)
+                   .news_list_item
+                       .news_item_image
+                           a(href="#")
+                               img(src="img/5156bcf4f73cde4d305d28329e39c5d5.jpg")
+                       .news_item_content
+                           .title
+                               .date 23.11.2021
+                               a(href="#")
+                                   b Приглашение к участию в межкультурном студенческом онлайн форуме
+                           .excerpt Омский государственный аграрный университет им. П. А. Столыпина приглашает студентов Белорусской государственной сельскохозяйственной академии принять участие в межкультурном студенческом онлайн-форуме  «Student’s Vision of the World».
+            <font class="text">Новости 1 - 10 из 136<br></font>
+            <font class="text">Начало&nbsp;|&nbsp;Пред.&nbsp;|<b>1</b>
+                <a href="/sotrydnichestvo/news//?PAGEN_1=2">2</a>
+                <a href="/sotrydnichestvo/news//?PAGEN_1=3">3</a>
+                <a href="/sotrydnichestvo/news//?PAGEN_1=4">4</a>
+                <a href="/sotrydnichestvo/news//?PAGEN_1=5">5</a>
+            <a href="/sotrydnichestvo/news//?PAGEN_1=2">След.</a>&nbsp;|
+            <a href="/sotrydnichestvo/news//?PAGEN_1=14">Конец</a></font>
